@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="OpportunitiesArise.MainPage">
+
+    <StackLayout BackgroundColor="#0A2C48">
+         <StackLayout Padding="0,50">
+                <Label Text="{Binding LabelName}"
+                       TextColor="White" WidthRequest="220" 
+                       FontSize="40" FontAttributes="Bold" 
+                        Margin="120" HorizontalOptions="Start"
+                       HeightRequest="400"
+                       />
+                 </StackLayout>
+
+
+        <StackLayout Padding="50,0,0,30">
+            <Label Text="{Binding BodyParagraph}"
+                       TextColor="White" FontSize="30" Margin="30"  
+                       />
+
+        </StackLayout>
+
+
+        <StackLayout Padding="0,0,0,400" Margin="0,0,0,100">
+            <Button Text="Sign-in" HeightRequest="75" WidthRequest="300"
+                    BackgroundColor="White" TextColor="#2E4159" CornerRadius="25"
+                    FontAttributes="Bold"  HorizontalOptions="Center" 
+                    Clicked="Button_Clicked"/>
+            
+                
+            
+            <Button Text="Sign-up" HeightRequest="75" WidthRequest="300"
+                    BackgroundColor="#E7305E" TextColor="White" CornerRadius="25"
+                    FontAttributes="Bold" HorizontalOptions="Center"
+                    Clicked="OnSignUpButtonClicked"/>
+            
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Label Text="Not Registered?" TextColor="DarkGray" FontSize="Small"/>
+                <Label Text="Sign Up" TextColor="Black" FontAttributes="Bold" FontSize="Small"/>
+
+            </StackLayout>
+
+
+
+
+        </StackLayout>
+
+
+
+
+        </StackLayout>
+</ContentPage>
