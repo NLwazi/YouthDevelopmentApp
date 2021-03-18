@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OpportunitiesArise.Views.RegistrationView">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand">
+            <Label Text="UserName"/>
+            <Entry x:Name ="UserNameEntry" Text="{Binding UserName}" Placeholder ="username"/>
+            <Label Text="Password"/>
+            <Entry Placeholder="Password" Text="{Binding Password}" IsPassword= "True"/>
+            <Button Text="SIGN-UP" Clicked="OnSignUpButtonClicked"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
