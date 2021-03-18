@@ -13,6 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpportunitiesApp", "Opportu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "YouthUnemployment", "YouthUnemployment", "{46960D83-3E1D-4992-A71B-0957168CF285}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A64EF22F-8A01-4AB1-BDDF-F0E8B3D5856A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

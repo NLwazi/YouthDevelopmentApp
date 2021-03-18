@@ -1,0 +1,5 @@
+C:\Users\Lwazi Nhleko\source\repos\YouthDevelopmentApp3\OpportunitiesArise\OpportunitiesArise.Android\obj\Debug\100\MonoAndroid,Version=v10.0.AssemblyAttributes.cs
+C:\Users\Lwazi Nhleko\source\repos\YouthDevelopmentApp3\OpportunitiesArise\OpportunitiesArise.Android\obj\Debug\100\build.props
+C:\Users\Lwazi Nhleko\source\repos\YouthDevelopmentApp3\OpportunitiesArise\OpportunitiesArise.Android\obj\Debug\100\adb.props
+C:\Users\Lwazi Nhleko\source\repos\YouthDevelopmentApp3\OpportunitiesArise\OpportunitiesArise.Android\obj\Debug\100\OpportunitiesArise.Android.csprojAssemblyReference.cache
+C:\Users\Lwazi Nhleko\source\repos\YouthDevelopmentApp3\OpportunitiesArise\OpportunitiesArise.Android\obj\Debug\100\stamp\_BuildLibraryImportsCache.stamp

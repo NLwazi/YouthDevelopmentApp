@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,15 +11,16 @@ using Xamarin.Forms.Xaml;
 namespace OpportunitiesArise.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page1 : ContentPage
+    public partial class FlyOutPageViews : FlyOutPage
     {
-        public Page1()
+        public FlyOutPageViews()
         {
             InitializeComponent();
-
-
         }
 
-
+        private string GetDebuggerDisplay()
+        {
+            return ToString();
+        }
     }
 }

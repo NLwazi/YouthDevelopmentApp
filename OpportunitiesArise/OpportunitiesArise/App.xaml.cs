@@ -10,7 +10,7 @@ namespace OpportunitiesArise
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new FlyOutPage());
         }
 
         protected override void OnStart()

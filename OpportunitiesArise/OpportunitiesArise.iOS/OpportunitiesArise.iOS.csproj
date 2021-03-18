@@ -140,5 +140,16 @@
       <Name>OpportunitiesArise</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <BundleResource Include="Resources\PWifi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\SDFacilities.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\GPS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\AppLogo.png" />
+  </ItemGroup>
 </Project>

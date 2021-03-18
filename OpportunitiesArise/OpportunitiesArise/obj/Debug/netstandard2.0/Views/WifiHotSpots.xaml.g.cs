@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("OpportunitiesArise.Views.MainPage.xaml", "Views/MainPage.xaml", typeof(global::OpportunitiesArise.FlyOutPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("OpportunitiesArise.Views.WifiHotSpots.xaml", "Views/WifiHotSpots.xaml", typeof(global::OpportunitiesArise.Views.WifiHotSpots))]
 
-namespace OpportunitiesArise {
+namespace OpportunitiesArise.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\MainPage.xaml")]
-    public partial class FlyOutPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\WifiHotSpots.xaml")]
+    public partial class WifiHotSpots : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(FlyOutPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(WifiHotSpots));
         }
     }
 }

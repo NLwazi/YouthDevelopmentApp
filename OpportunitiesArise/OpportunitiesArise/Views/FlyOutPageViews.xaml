@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OpportunitiesArise.Views.FlyOutPageViews">
+    <FlyoutItem Title="Skills4Youth"
+                Shell.TabBarIsVisible="False"
+                FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Home" Icon="AppLogo.png"  IsTabStop="True" ContentTemplate="{DataTemplate local.UserEntryForm}"/>
+        <ShellContent Title="Wifi" Icon="PWifi.png"  IsTabStop="True" ContentTemplate="{DataTemplate local.WifiHotSpots}"/>
+
+    </FlyoutItem>
+</Shell>

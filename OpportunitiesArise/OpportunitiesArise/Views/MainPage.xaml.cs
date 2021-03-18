@@ -4,9 +4,9 @@ using OpportunitiesArise.Views;
 
 namespace OpportunitiesArise
 {
-    public partial class MainPage : ContentPage
+    public partial class FlyOutPage : ContentPage
     {
-        public MainPage()
+        public FlyOutPage()
         {
             InitializeComponent();
 

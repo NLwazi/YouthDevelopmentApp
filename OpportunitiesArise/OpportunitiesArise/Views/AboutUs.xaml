@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AboutPage.MainPage">
+
+
+    <ContentPage.BackgroundColor>
+        <Color>Orange</Color>
+    </ContentPage.BackgroundColor>
+
+    <StackLayout>
+        <Label Text="About Us"
+               FontSize="50"
+               FontAttributes="Italic"
+               HorizontalOptions="Center" />
+
+        <Label Text=
+"Youth unemployment has been extremely high for 
+ many years in South Africa and is one of the 
+ country's major socio-economic challenges.
+ Unemployed youth often have dropped out of school
+ or have low levels of education."
+               
+               FontSize="Large" />
+
+        <Label Text=
+"Our group focus on Skills Development and job market 
+ readiness of persons who are not in employment, education 
+ or training (NEETs) group. The reason for tackling Youth 
+ Unemployment is because the active participation of the youth 
+ in the economy will improve their livelihood, their families,
+ communities, and the country at large."
+               
+               FontSize="Large" />
+
+
+        <Label Text=
+"We believe that youth represent a powerful resource for the
+ country.Remember no one can take away your skills!!"
+               
+               FontAttributes="Italic"
+               FontSize="Large" />
+    </StackLayout>
+
+</ContentPage>
