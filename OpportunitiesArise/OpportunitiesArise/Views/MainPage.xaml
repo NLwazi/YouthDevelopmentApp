@@ -22,13 +22,12 @@
         </StackLayout>
 
 
-        <StackLayout Padding="0,0,0,400" Margin="0,0,0,100">
+        <StackLayout Grid.Row="2" Orientation="Horizontal" Spacing="20" VerticalOptions="End">
             <Button Text="Sign-in" HeightRequest="75" WidthRequest="300"
                     BackgroundColor="White" TextColor="#2E4159" CornerRadius="25"
                     FontAttributes="Bold"  HorizontalOptions="Center" 
                     Clicked="Button_Clicked"/>
-            
-                
+                          
             
             <Button Text="Sign-up" HeightRequest="75" WidthRequest="300"
                     BackgroundColor="#E7305E" TextColor="White" CornerRadius="25"
@@ -41,7 +40,7 @@
 
             </StackLayout>
 
-
+            
 
 
         </StackLayout>

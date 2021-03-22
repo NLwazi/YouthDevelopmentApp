@@ -2,11 +2,42 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OpportunitiesArise.Views.UserEntryForm">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Provide CV Entry!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                            
+
+    <StackLayout BackgroundColor="White">
+        <StackLayout Padding="0" Margin="0" HorizontalOptions="FillAndExpand">
+
+            <Label Text="User Entry Form" TextColor="Black" HorizontalOptions="Center" FontSize="Header"/>
         </StackLayout>
-    </ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="First Name(s):" />
+                <Entry Placeholder="Type Full name(s)" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"/>
+            <Label Text="Surname:"/>
+            <Entry Placeholder="Type surname"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Date of birth:" />
+                <Entry Placeholder="Select date of birth" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Place of Residence:" />
+                <Entry Placeholder="Enter your City/Town name" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Nationality:" />
+                <Entry Placeholder="Select Nationality" />
+                <StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Employment Equity Status:" />
+                    <Entry Placeholder="Select EE Status:" />
+                </StackLayout>
+
+
+            </StackLayout>
+        </StackLayout>
+
+    </StackLayout>
 </ContentPage>

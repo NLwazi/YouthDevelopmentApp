@@ -5,7 +5,7 @@
 
 
     <ContentPage.BackgroundColor>
-        <Color>Orange</Color>
+        <Color> #0A2C48</Color>
     </ContentPage.BackgroundColor>
 
     <StackLayout>
@@ -34,12 +34,7 @@
                FontSize="Large" />
 
 
-        <Label Text=
-"We believe that youth represent a powerful resource for the
- country.Remember no one can take away your skills!!"
-               
-               FontAttributes="Italic"
-               FontSize="Large" />
+ 
     </StackLayout>
 
 </ContentPage>
